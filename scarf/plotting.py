@@ -38,3 +38,4 @@ def segment_plot(debl, cat, out_fn = "segment_plot.pdf", xlim=None, ylim=None):
     plt.yticks([])
     plt.savefig(out_fn, dpi=200)
     plt.close()
+    
